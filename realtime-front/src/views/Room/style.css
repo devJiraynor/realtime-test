@@ -1,0 +1,91 @@
+.message-title {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    font-size: 24px;
+}
+.message-list-box {
+    height: 90vh;
+
+    overflow: auto;
+}
+
+.message-row-other {
+    padding: 20px;
+
+    display: flex;
+}
+
+.message-row-me {
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.message-box-other {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-nickname {
+    font-size: 12px;
+}
+
+.message-other {
+    padding: 12px;
+    font-size: 18px;
+
+    color: rgba(255, 255, 255, 1);
+
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.message {
+    padding: 12px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.message-send-box {
+    padding: 2vh;
+    height: 6vh;
+
+    display: flex;
+    gap: 2vw;
+
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.message-input {
+    padding: 0 2vw;
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    
+    font-size: 18px;
+}
+
+.message-send-button {
+    border-radius: 8px;
+    width: 10vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 1);
+
+    color: rgba(255, 255, 255, 1);
+
+    font-size: 12px;
+}
+
+.message-send-button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+}

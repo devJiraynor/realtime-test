@@ -1,0 +1,59 @@
+#enter-wrapper {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.enter-back-button {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+
+  color: rgba(150, 0, 0, 0.5);
+}
+
+.enter-back-button:hover {
+  cursor: pointer;
+  color: rgba(150, 0, 0, 0.7);
+}
+
+.enter-input-box {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  width: 30vw;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.enter-input {
+  flex: 1;
+  height: 5vh;
+
+  border: none;
+  outline: none;
+
+  font-size: 2vh;
+}
+
+.enter-button {
+  border-radius: 12px;
+  padding: 8px;
+  height: 5vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  color: rgba(255, 255, 255, 1);
+}
+
+.enter-button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
